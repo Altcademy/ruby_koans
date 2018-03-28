@@ -7,18 +7,18 @@ require 'about_asserts'
 require 'about_strings'
 require 'about_symbols'
 require 'about_true_and_false'
-require 'about_methods'
 require 'about_control_statements'
+require 'about_methods'
 require 'about_arrays'
 require 'about_array_assignment'
 require 'about_iteration'
 require 'about_hashes'
-require 'about_objects'
 require 'about_nil'
+require 'about_objects'
 
-in_ruby_version("2") do
-  require 'about_keyword_arguments'
-end
+# in_ruby_version("2") do
+#   require 'about_keyword_arguments'
+# end
 
 # Basics Project
 require 'about_scoring_project'
@@ -26,7 +26,7 @@ require 'about_scoring_project'
 # OOP
 require 'about_classes'
 require 'about_inheritance'
-require 'about_modules'
+# require 'about_modules'
 
 # OOP Project
 require 'about_dice_project'
